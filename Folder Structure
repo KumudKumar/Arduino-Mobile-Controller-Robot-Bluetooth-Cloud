@@ -1,0 +1,16 @@
+Arduino-Mobile-Controller-Robot-Bluetooth-Cloud/
+│
+├── docs/
+│   └── user_manual.md          # User manual for controlling the robot
+│
+├── src/
+│   ├── bluetooth_controller/
+│   │   └── bluetooth_controller.ino     # Arduino sketch for Bluetooth control
+│   ├── cloud_controller/
+│   │   └── cloud_controller.ino         # Arduino sketch for Cloud control
+│   └── shared/
+│       └── helper_functions.h    # Helper functions used by both Bluetooth and Cloud code
+│
+├── README.md
+├── LICENSE
+└── .gitignore
